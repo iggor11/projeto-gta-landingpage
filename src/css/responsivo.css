@@ -1,0 +1,154 @@
+/* Ajustes responsivos para dispositivos móveis */
+
+@media only screen and (max-width: 1024px) {
+    .cabecalho {
+        padding: 0 20px; /* Ajustado o padding */
+    }
+
+    .cabecalho .logo {
+        gap: 10px; /* Reduzido o espaço entre os logos */
+    }
+
+    .home .informacoes {
+        padding: 40px 20px 40px 20px; /* Ajustado o padding */
+    }
+
+    .home .informacoes .titulo {
+        font-size: 40px; /* Ajustado o tamanho da fonte */
+    }
+
+    .home .informacoes .texto {
+        font-size: 16px; /* Ajustado o tamanho da fonte */
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        width: 100%; /* Ajustado a largura */
+        font-size: 24px; /* Ajustado o tamanho da fonte */
+        padding: 16px 32px; /* Ajustado o padding */
+    }
+
+    .compre-ja .titulo {
+        font-size: 42px; /* Ajustado o tamanho da fonte */
+        margin-bottom: 30px; /* Ajustado o espaço abaixo do título */
+    }
+
+    .compre-ja .cartao {
+        width: 100%; /* Ajustado a largura */
+        padding: 30px; /* Ajustado o padding */
+    }
+
+    .compre-ja .cartao .informacoes h3 {
+        font-size: 32px; /* Ajustado o tamanho da fonte */
+    }
+
+    .compre-ja .cartao .informacoes p {
+        font-size: 14px; /* Ajustado o tamanho da fonte */
+    }
+
+    .compre-ja .cartao .plataformas img {
+        max-width: 20px; /* Ajustado o tamanho dos logos de plataformas */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 0 10px; /* Ajustado o padding */
+    }
+
+    .cabecalho .menu {
+        gap: 15px; /* Reduzido o espaço entre os itens do menu */
+    }
+
+    .home .informacoes {
+        padding: 30px 10px 30px 10px; /* Ajustado o padding */
+    }
+
+    .home .informacoes .titulo {
+        font-size: 36px; /* Ajustado o tamanho da fonte */
+    }
+
+    .home .informacoes .texto {
+        font-size: 14px; /* Ajustado o tamanho da fonte */
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        width: 100%; /* Ajustado a largura */
+        font-size: 22px; /* Ajustado o tamanho da fonte */
+        padding: 14px 28px; /* Ajustado o padding */
+    }
+
+    .compre-ja .titulo {
+        font-size: 38px; /* Ajustado o tamanho da fonte */
+        margin-bottom: 25px; /* Ajustado o espaço abaixo do título */
+    }
+
+    .compre-ja .cartao {
+        width: 100%; /* Ajustado a largura */
+        padding: 25px; /* Ajustado o padding */
+    }
+
+    .compre-ja .cartao .informacoes h3 {
+        font-size: 28px; /* Ajustado o tamanho da fonte */
+    }
+
+    .compre-ja .cartao .informacoes p {
+        font-size: 14px; /* Ajustado o tamanho da fonte */
+    }
+
+    .compre-ja .cartao .plataformas img {
+        max-width: 18px; /* Ajustado o tamanho dos logos de plataformas */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cabecalho {
+        padding: 0 5px; /* Ajustado o padding */
+    }
+
+    .cabecalho .logo {
+        gap: 5px; /* Reduzido o espaço entre os logos */
+    }
+
+    .home .informacoes {
+        padding: 20px 10px 20px 10px; /* Ajustado o padding */
+    }
+
+    .home .informacoes .titulo {
+        font-size: 28px; /* Ajustado o tamanho da fonte */
+    }
+
+    .home .informacoes .texto {
+        font-size: 12px; /* Ajustado o tamanho da fonte */
+    }
+
+    .btn-comprar,
+    .btn-plataforma {
+        width: 100%; /* Ajustado a largura */
+        font-size: 20px; /* Ajustado o tamanho da fonte */
+        padding: 12px 24px; /* Ajustado o padding */
+    }
+
+    .compre-ja .titulo {
+        font-size: 36px; /* Ajustado o tamanho da fonte */
+        margin-bottom: 20px; /* Ajustado o espaço abaixo do título */
+    }
+
+    .compre-ja .cartao {
+        width: 100%; /* Ajustado a largura */
+        padding: 20px; /* Ajustado o padding */
+    }
+
+    .compre-ja .cartao .informacoes h3 {
+        font-size: 24px; /* Ajustado o tamanho da fonte */
+    }
+
+    .compre-ja .cartao .informacoes p {
+        font-size: 12px; /* Ajustado o tamanho da fonte */
+    }
+
+    .compre-ja .cartao .plataformas img {
+        max-width: 16px; /* Ajustado o tamanho dos logos de plataformas */
+    }
+}
